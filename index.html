@@ -422,6 +422,9 @@ body {
       <a href="index.html">Mahsulotlar</a>
       <a href="login.html">Kirish</a>
       <a href="register.html">Ro'yxatdan o'tish</a>
+      <a href="search.html">🔍 Qidiruv</a>
+      <a href="wishlist.html">❤️ Sevimlilar</a>
+      <a href="profile.html">👤 Profil</a>
       <div class="cart-icon" onclick="toggleCart()">
         🛒 Savat <span class="cart-badge" id="cartBadge">0</span>
       </div>
@@ -452,40 +455,40 @@ body {
 
   <div class="products-grid" id="productsGrid">
     <!-- Product 1 - Normal -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">📱</div>
       <div class="product-info">
         <div class="product-name">iPhone 15 Pro Max</div>
         <div class="product-rating"><span class="product-stars">★★★★★</span> 4.9 (1,234)</div>
         <div class="product-price">18,500,000 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('iPhone 15 Pro Max', 18500000, '📱')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 2 - Normal -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">💻</div>
       <div class="product-info">
         <div class="product-name">MacBook Air M2</div>
         <div class="product-rating"><span class="product-stars">★★★★☆</span> 4.7 (856)</div>
         <div class="product-price">15,200,000 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('MacBook Air M2', 15200000, '💻')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 3 - BUG: Negative price -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">🎧</div>
       <div class="product-info">
         <div class="product-name">AirPods Pro 2</div>
         <div class="product-rating"><span class="product-stars">★★★★★</span> 4.8 (2,341)</div>
         <div class="product-price negative">-50,000 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('AirPods Pro 2', -50000, '🎧')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 4 - Normal with discount -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">⌚</div>
       <div class="product-info">
         <div class="product-name">Apple Watch Series 9</div>
@@ -494,51 +497,51 @@ body {
           <span class="product-price-old">5,800,000</span>4,900,000 so'm
         </div>
         <button class="btn-add-cart" onclick="addToCart('Apple Watch Series 9', 4900000, '⌚')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 5 - BUG: Broken image -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image broken">⚠️ Rasm yuklanmadi</div>
       <div class="product-info">
         <div class="product-name">Samsung Galaxy S24</div>
         <div class="product-rating"><span class="product-stars">★★★★☆</span> 4.6 (934)</div>
         <div class="product-price">13,500,000 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('Samsung Galaxy S24', 13500000, '📱')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 6 - BUG: Button doesn't work -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">🖥️</div>
       <div class="product-info">
         <div class="product-name">iPad Pro 12.9"</div>
         <div class="product-rating"><span class="product-stars">★★★★★</span> 4.9 (421)</div>
         <div class="product-price">12,800,000 so'm</div>
         <button class="btn-add-cart" onclick="brokenAddButton()">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 7 - Normal -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">📚</div>
       <div class="product-info">
         <div class="product-name">Clean Code (kitob)</div>
         <div class="product-rating"><span class="product-stars">★★★★★</span> 4.9 (2,891)</div>
         <div class="product-price">285,000 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('Clean Code', 285000, '📚')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
     <!-- Product 8 - BUG: Price shows 0 -->
-    <div class="product-card">
+    <a href="product.html" class="product-card" style="text-decoration:none;color:inherit;display:block">
       <div class="product-image">🎮</div>
       <div class="product-info">
         <div class="product-name">PlayStation 5</div>
         <div class="product-rating"><span class="product-stars">★★★★★</span> 4.8 (1,567)</div>
         <div class="product-price">0 so'm</div>
         <button class="btn-add-cart" onclick="addToCart('PlayStation 5', 0, '🎮')">Savatga qo'shish</button>
-      </div>
+      </a>
     </div>
 
   </div>
